@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
+import Carousel from "./Caroussel";
 
 const Projects = () => {
   return (
