@@ -4,6 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import Carousel from "/components/main/Caroussel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,13 +20,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+      </head>
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
         <Navbar />
         {children}
+        <Carousel />
         <Footer />
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
       </body>
     </html>
   );

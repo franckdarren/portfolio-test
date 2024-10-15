@@ -53,7 +53,7 @@ const HeroContent = () => {
           Passionné par l&apos;univers numérique et fort de plus de trois ans
           d&apos;expérience dans la conception et le développement
           d&apos;applications web, compétent en web design et avec une
-          connaissance des frameworks front-end.
+          connaissance des frameworks front-end et back-end.
         </motion.p>
         {/* <motion.a
           variants={slideInFromLeft(1)}
@@ -66,7 +66,7 @@ const HeroContent = () => {
         </div> */}
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full  h-full flex justify-center items-center"
       >
@@ -107,7 +107,7 @@ const HeroContent = () => {
             />
           </motion.svg>
         </div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
