@@ -15,43 +15,27 @@ const Projects = () => {
           src="/phyto.png"
           title="Phytoscience Gabon"
           description="Phyto Science est une entreprise mondiale de santé et de bien-être."
-          lien= "https://phytoscience.vercel.app/"
+          lien="https://phytoscience.vercel.app/"
         />
-        <ProjectCard
-          src="/onmaced.png"
-          title="Cabinet Onmaced"
-          description="Le Cabinet d’Expertise et de Conseils Stratégiques ONMACED & fils est spécialisé dans les secteurs Finance, Mines et Hydrocarbures."
-          lien= "https://cabinet-onmaced.com/"
-        />
-        <ProjectCard
-          src="/desty.png"
-          title="Desty Shop"
-          description="Boutique en ligne où la mode et les tendances se rencontrent "
-          lien= "https://destyshop.fr/"
-        />
-        <ProjectCard
-          src="/keepHeart.png"
-          title="Keep earth"
-          description="Un Avertissement pour notre Planète : L'Histoire de Nos Choix. "
-          lien= "https://projet-nasa.vercel.app/"
-        />
+
         <ProjectCard
           src="/mbulu.png"
           title="Mbulu"
           description="Le dictionnaire numérique interactif dédié aux langues gabonaises. "
-          lien= "https://dev-mbulu.netlify.app/"
+          lien="https://dev-mbulu.netlify.app/"
         />
-        <ProjectCard
-          src="/suncom.png"
-          title="Suncomcocotier"
-          description="SUNCOM COCOTIERS est une PME de droit gabonais dont l’offre de services s’articule à la vente des solutions et des produits aux particuliers et aux Entreprises. "
-          lien= "https://suncomcocotiers.com/fr/"
-        />
+
         <ProjectCard
           src="/fourniture.png"
           title="Fourniture en ligne"
           description="Fourniture en Ligne est la solution innovante pour simplifier la préparation de la rentrée scolaire. "
-          lien= "https://fournitureenligne.com/"
+          lien="https://fournitureenligne.com/"
+        />
+        <ProjectCard
+          src="/piga.jpg"
+          title="PIGA by T.COM"
+          description="PIGA est une solution innovante vous permettant de toucher plus de 50.000 personnes par jour en diffusant votre message publicitaire à l'intérieur de plus de 100 taxis berlines."
+          lien=""
         />
       </div>
     </div>
