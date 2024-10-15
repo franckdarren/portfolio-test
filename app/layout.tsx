@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Franck Darren",
-  description: "Portfolio d'un Developpeur Full-Stack",
+  description: "Portfolio d'un Développeur Full-Stack",
 };
 
 export default function RootLayout({
@@ -21,7 +21,10 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+          rel="stylesheet"
+        />
       </head>
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
@@ -31,7 +34,11 @@ export default function RootLayout({
         {children}
         <Carousel />
         <Footer />
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+        {/* Utilisation du script asynchrone */}
+        <script
+          src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"
+          async
+        ></script>
       </body>
     </html>
   );
