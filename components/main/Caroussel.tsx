@@ -1,7 +1,7 @@
 const Carousel = () => {
     return (
         <div>
-            <h1 className="text-[40px] pt-30 font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mt-30 pb-50">
+            <h1 className="text-[40px] lg:pt-30 font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mt-30 pb-50">
                 Mes Participations
             </h1>
 
